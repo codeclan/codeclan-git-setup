@@ -1,0 +1,33 @@
+{
+  "name": "git-setup",
+  "version": "1.0.0",
+  "description": "Easy set up for git: does git config and SSH key generation",
+  "main": "dist/index.js",
+  "bin": {
+    "git-setup": "dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "build": "grunt"
+  },
+  "author": "Stewart MacKenzie-Leigh",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "clipboardy": "^1.1.4",
+    "inquirer": "^3.2.0",
+    "shelljs": "^0.7.8"
+  },
+  "devDependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/inquirer": "0.0.35",
+    "@types/shelljs": "^0.7.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.16",
+    "load-grunt-tasks": "^3.5.2",
+    "typescript": "^2.4.1"
+  }
+}
