@@ -1,6 +1,6 @@
 {
   "name": "git-setup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy set up for git: does git config and SSH key generation",
   "main": "dist/index.js",
   "bin": {
@@ -29,5 +29,19 @@
     "grunt-ts": "^6.0.0-beta.16",
     "load-grunt-tasks": "^3.5.2",
     "typescript": "^2.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stewartml/git-setup.git"
+  },
+  "keywords": [
+    "git",
+    "setup",
+    "config",
+    "ssh"
+  ],
+  "bugs": {
+    "url": "https://github.com/stewartml/git-setup/issues"
+  },
+  "homepage": "https://github.com/stewartml/git-setup#readme"
 }

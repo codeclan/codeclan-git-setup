@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import * as chalk from 'chalk';
 import * as clipboardy from 'clipboardy';
 import * as inquirer from 'inquirer';
