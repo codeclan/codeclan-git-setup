@@ -1,2 +1,4 @@
 node_modules
 .tscache
+dist/index.d.ts
+dist/index.js.map
