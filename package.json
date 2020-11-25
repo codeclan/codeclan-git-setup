@@ -14,21 +14,23 @@
   "author": "Stewart MacKenzie-Leigh",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.0.1",
-    "clipboardy": "^1.1.4",
-    "inquirer": "^3.2.0",
-    "shelljs": "^0.7.8"
+    "chalk": "^4.1.0",
+    "clipboardy": "^2.3.0",
+    "inquirer": "^7.3.3",
+    "install": "^0.13.0",
+    "npm": "^6.14.9",
+    "shelljs": "^0.8.4"
   },
   "devDependencies": {
-    "@types/chalk": "^0.4.31",
-    "@types/inquirer": "0.0.35",
-    "@types/shelljs": "^0.7.2",
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^7.3.1",
+    "@types/shelljs": "^0.8.8",
     "grunt": "^1.0.1",
-    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-ts": "^6.0.0-beta.16",
-    "load-grunt-tasks": "^3.5.2",
-    "typescript": "^2.4.1"
+    "load-grunt-tasks": "^5.1.0",
+    "typescript": "^4.1.2"
   },
   "repository": {
     "type": "git",
