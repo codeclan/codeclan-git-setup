@@ -13,10 +13,9 @@ This script does these things for you!
 
 Run:
 
-```
-$ curl --remote-name https://raw.githubusercontent.com/codeclan/codeclan-git-setup/master/dist/index.js
-$ node index.js
-```
+- ```$ npx https://github.com/codeclan/codeclan-git-setup```
+- Say `y` to `Ok to proceed? (y)`
+
 
 Use:
 
@@ -32,7 +31,5 @@ SSH key copied to clipboard, just paste it into GitHub.
 ## Updating the script (Instructors):
 
 - Clone the repo
-- Make changes to `src/index.ts`
-- Run `npm build`
-- This will make `dist/index.js`
+- Make changes to `index.js`
 - Commit / Push to the repo
