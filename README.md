@@ -20,7 +20,7 @@ In Terminal run:
 Use:
 
 ```
-$ node index.js
+$ npx https://github.com/codeclan/codeclan-git-setup
 ? What is your name? Fred Flintstone
 ? What is the email address you sign into GitHub with? fred@flintstones.com
 Found an existing SSH key.
