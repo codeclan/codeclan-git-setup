@@ -11,9 +11,9 @@ This script does these things for you!
 
 ## Usage
 
-Run:
+In Terminal run:
 
-- ```$ npx https://github.com/codeclan/codeclan-git-setup```
+- ```npx https://github.com/codeclan/codeclan-git-setup```
 - Say `y` to `Ok to proceed? (y)`
 
 
