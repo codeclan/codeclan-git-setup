@@ -1,4 +1,4 @@
-# git-setup
+# codeclan-git-setup
 
 When you get a new development machine, there are a bunch of things you need to do to set up Git properly, namely:
 
@@ -11,7 +11,7 @@ This script does these things for you!
 
 ## Usage
 
-Install:
+Run:
 
 ```
 $ curl --remote-name https://raw.githubusercontent.com/codeclan/codeclan-git-setup/master/dist/index.js
@@ -35,4 +35,4 @@ SSH key copied to clipboard, just paste it into GitHub.
 - Make changes to `src/index.ts`
 - Run `npm build`
 - This will make `dist/index.js`
-- Push to the repo
+- Commit / Push to the repo
