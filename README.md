@@ -11,7 +11,7 @@ This script does these things for you!
 
 ## Usage
 
-Install:
+Run:
 
 ```
 $ curl --remote-name https://raw.githubusercontent.com/codeclan/codeclan-git-setup/master/dist/index.js
