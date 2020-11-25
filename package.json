@@ -4,7 +4,7 @@
   "description": "Easy set up for git: does git config and SSH key generation",
   "main": "dist/index.js",
   "bin": {
-    "git-setup": "dist/index.js"
+    "codeclan-git-setup": "dist/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
