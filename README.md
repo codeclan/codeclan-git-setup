@@ -1,4 +1,4 @@
-# git-setup
+# codeclan-git-setup
 
 When you get a new development machine, there are a bunch of things you need to do to set up Git properly, namely:
 
