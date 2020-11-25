@@ -29,7 +29,7 @@ Please create a new key at https://github.com/settings/keys
 SSH key copied to clipboard, just paste it into GitHub.
 ```
 
-Updating the script (Instructors):
+## Updating the script (Instructors):
 
 - Clone the repo
 - Make changes to `src/index.ts`
