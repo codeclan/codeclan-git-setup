@@ -35,4 +35,4 @@ SSH key copied to clipboard, just paste it into GitHub.
 - Make changes to `src/index.ts`
 - Run `npm build`
 - This will make `dist/index.js`
-- Push to the repo
+- Commit / Push to the repo
