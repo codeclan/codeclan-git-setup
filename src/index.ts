@@ -6,7 +6,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as shell from 'shelljs';
 
-const keyFile = path.join(process.env.HOME, '.ssh/id_rsa.pub');
+const keyFile = path.join(process.env.HOME, '.ssh/id_ed25519.pub');
 
 async function run() {
   if (!shell.which('git'))
@@ -30,7 +30,7 @@ async function run() {
 
   if (!fs.existsSync(keyFile)) {
     console.log(chalk.yellow('Generating an SSH key for you...'));
-    shell.exec(`ssh-keygen -t rsa -b 4096 -C ${answers.email} -f ~/.ssh/id_rsa -N ""`, {silent: true});
+    shell.exec(`ssh-keygen -t ed25519 -C ${answers.email} -f ~/.ssh/id_ed25519 -N ""`, {silent: true});
 
   } else {
     console.log(chalk.green('Found an existing SSH key.'));
