@@ -2,14 +2,13 @@
   "name": "codeclan-git-setup",
   "version": "1.1.0",
   "description": "Easy set up for git: does git config and SSH key generation",
-  "main": "dist/index.js",
+  "main": "index.js",
   "bin": {
-    "codeclan-git-setup": "dist/index.js"
+    "codeclan-git-setup": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/index.js",
-    "build": "grunt"
+    "start": "node index.js"
   },
   "author": "Stewart MacKenzie-Leigh, CodeClan",
   "license": "ISC",

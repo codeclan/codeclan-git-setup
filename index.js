@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-import * as chalk from 'chalk';
-import * as clipboardy from 'clipboardy';
-import * as inquirer from 'inquirer';
-import * as fs from 'fs';
-import * as path from 'path';
-import * as shell from 'shelljs';
+const chalk = require('chalk');
+const clipboardy = require('clipboardy');
+const inquirer = require('inquirer');
+const fs  = require('fs');
+const path = require('path');
+const shell = require('shelljs');
 
 const keyFile = path.join(process.env.HOME, '.ssh/id_ed25519.pub');
 
@@ -47,13 +47,13 @@ async function run() {
 }
 
 
-function setGitConfig(key: string, value: string) {
+function setGitConfig(key, value) {
   shell.exec(`git config --global ${key} "${value}"`, {silent: true});
 }
 
 
-function getGitConfig(key: string) {
-  const result = <string>shell.exec(`git config --global --get ${key}`, {silent: true}).stdout;
+function getGitConfig(key) {
+  const result = shell.exec(`git config --global --get ${key}`, {silent: true}).stdout;
   return result.trim();
 }
 
