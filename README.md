@@ -14,7 +14,7 @@ This script does these things for you!
 Install:
 
 ```
-$ curl --remote-name https://github.com/codeclan/codeclan-git-setup/blob/master/dist/index.js
+$ curl --remote-name https://raw.githubusercontent.com/codeclan/codeclan-git-setup/master/dist/index.js
 $ node index.js
 ```
 
