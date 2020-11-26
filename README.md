@@ -9,6 +9,8 @@ When you get a new development machine, there are a bunch of things you need to 
 
 This script does these things for you!
 
+(Requires Node.js)
+
 ## Usage
 
 In Terminal run:
