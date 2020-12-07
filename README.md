@@ -2,6 +2,8 @@
 
 ## Usage
 
+(Requires Node.js)
+
 In Terminal run:
 
 - ```npx https://github.com/codeclan/codeclan-git-setup```
@@ -29,9 +31,6 @@ When you get a new development machine, there are a bunch of things you need to 
  * copy `~/.ssh/id_ed25519.pub` to the clipboard
 
 This script does these things for you!
-
-(Requires Node.js)
-
 
 ## Updating the script (Instructors):
 
